@@ -1,27 +1,25 @@
 {
-  "name": "copy-of-২০২৬-নির্বাচনে-কপালে-কি-দুর্গতি-আছে?",
+  "name": "election26-app",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "ng serve",
-    "build": "ng build",
-    "preview": "ng serve --configuration=production"
+    "build": "ng build"
   },
   "dependencies": {
-    "rxjs": "^7.8.2",
-    "@angular/platform-browser": "^21.0.0",
-    "@angular/compiler": "^21.0.0",
-    "@angular/core": "^21.0.0",
-    "@angular/common": "^21.0.0",
-    "@angular/build": "^21.0.0",
-    "@angular/cli": "^21.0.0",
-    "@angular/compiler-cli": "^21.0.0",
+    "@angular/common": "~18.0.0",
+    "@angular/compiler": "~18.0.0",
+    "@angular/core": "~18.0.0",
+    "@angular/platform-browser": "~18.0.0",
+    "rxjs": "~7.8.0",
+    "@angular/build": "~18.0.0",
+    "@angular/cli": "~18.0.0",
+    "@angular/compiler-cli": "~18.0.0",
     "tailwindcss": "latest"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@angular-devkit/build-angular": "~18.0.1",
+    "@angular/cli": "~18.0.1",
+    "@angular/compiler-cli": "~18.0.1",
+    "typescript": "~5.4.2"
   }
 }
